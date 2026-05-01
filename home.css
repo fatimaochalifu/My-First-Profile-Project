@@ -20,6 +20,14 @@ body{
     padding: 0 8rem;
 }
 
+.logo {
+    padding: 16px;
+    background-color: grey;
+    color: white;
+    border-radius: 100%;
+    font-size: 12px;
+}
+
 .a-div {
     display: flex;
     flex-direction: row;
@@ -74,4 +82,56 @@ a {
 .img-div img {
     object-fit: cover;
     border-radius: 32px;
+}
+.end-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.bio-p {
+text-align: center;
+font-size: 12px;
+color: rgb(142, 146, 146);
+}
+
+.h-bio {
+    text-align: center;
+    font-size: 42px;
+}
+
+.bio-img {
+    width: 50%;
+    /* background-color: blue; */
+
+}
+
+.bio-img img {
+    border-radius: 32px;
+    object-fit: cover;
+}
+
+.bio-text {
+    width: 50%;
+    /* background-color: red; */
+    height:300px;
+}
+
+.p-about {
+font-size: 18px;
+color: rgb(62,124,99);
+margin-bottom: 10px;
+}
+
+.h-details {
+margin-bottom: 10px;
+}
+
+.p-lng {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: rgb(142, 146, 146);
 }
